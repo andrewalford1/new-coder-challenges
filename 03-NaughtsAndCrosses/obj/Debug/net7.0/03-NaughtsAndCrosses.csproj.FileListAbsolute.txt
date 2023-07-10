@@ -1,0 +1,15 @@
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\bin\Debug\net7.0\03-NaughtsAndCrosses.exe
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\bin\Debug\net7.0\03-NaughtsAndCrosses.deps.json
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\bin\Debug\net7.0\03-NaughtsAndCrosses.runtimeconfig.json
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\bin\Debug\net7.0\03-NaughtsAndCrosses.dll
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\bin\Debug\net7.0\03-NaughtsAndCrosses.pdb
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.dll
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\refint\03-NaughtsAndCrosses.dll
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.pdb
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\03-NaughtsAndCrosses.genruntimeconfig.cache
+C:\Users\Andrew\source\repos\new-coder-challenges\03-NaughtsAndCrosses\obj\Debug\net7.0\ref\03-NaughtsAndCrosses.dll

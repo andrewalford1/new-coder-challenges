@@ -4,14 +4,10 @@ namespace NaughtsAndCrosses;
 
 public class GameGrid
 {
-    private const int ROWS = 3;
-    private const int COLUMNS = 3;
-
-    private char[][] _grid = new char[ROWS][]
-    {
-        new char[COLUMNS] { ' ',' ',' '},
-        new char[COLUMNS] { ' ',' ',' '},
-        new char[COLUMNS] { ' ',' ',' '}
+    private char[] _grid = new char[9]{
+        'X', ' ', ' ',
+        'O', 'X', 'O',
+        ' ', 'O', 'X'
     };
 
     /// <summary>
@@ -34,22 +30,17 @@ public class GameGrid
     }
 
     /// <summary>
-    /// Loops through the game grid and writes each row to the console.
+    /// Writes each row of the game grid to the console.
     /// </summary>
     public void PrintToConsole()
     {
-        var stringBuilder = new StringBuilder("| ");
-        for (int row = 0; row < ROWS; row++)
-        {
+        var stringBuilder = new StringBuilder();
+        stringBuilder.AppendLine();
+        stringBuilder.AppendLine($"| {_grid[0]} | {_grid[1]} | {_grid[2]} |");
+        stringBuilder.AppendLine($"| {_grid[3]} | {_grid[4]} | {_grid[5]} |");
+        stringBuilder.AppendLine($"| {_grid[6]} | {_grid[7]} | {_grid[8]} |");
+        stringBuilder.AppendLine();
 
-            for (int column = 0; column < COLUMNS; column++)
-            {
-                stringBuilder.Append($"{_grid[row][column]} |");
-            }
-
-            stringBuilder.Append('\n');
-        }
-
-        Console.WriteLine(stringBuilder.ToString());
+        Console.Write(stringBuilder.ToString());
     }
 }

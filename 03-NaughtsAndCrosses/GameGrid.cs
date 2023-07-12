@@ -13,7 +13,7 @@ public class GameGrid
     /// <summary>
     /// Updates a location on the game grid.
     /// </summary>
-    public void UpdateLocation(int column, int row, char player)
+    public void UpdateLocation(int position, char player)
     {
         throw new NotImplementedException();
     }

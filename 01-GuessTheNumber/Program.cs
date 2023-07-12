@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Think of a number between 1 and 100");
+Console.WriteLine("Think of a number between 1 and 100");
 
 var random = new Random();
 

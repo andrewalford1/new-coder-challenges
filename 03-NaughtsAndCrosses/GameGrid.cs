@@ -10,12 +10,26 @@ public class GameGrid
         ' ', 'O', 'X'
     };
 
+    private readonly string[] _winStates = new string[]
+    {
+        "012",
+        "345",
+        "678",
+
+        "036",
+        "147",
+        "258",
+
+        "048",
+        "247"
+    };
+
     /// <summary>
     /// Updates a location on the game grid.
     /// </summary>
-    public void UpdateLocation(int column, int row, char player)
+    public void UpdateLocation(int position, char player)
     {
-        throw new NotImplementedException();
+        _grid[position] = player;
     }
 
     /// <returns>
@@ -26,7 +40,35 @@ public class GameGrid
     /// </returns>
     public bool IsGameOver(out string winner)
     {
-        throw new NotImplementedException();
+        var values = _grid.Select(x => {
+            if (x == 'X') return 1;
+            
+            if (x == 'O') return 2;
+
+            return 0;
+        }).ToList();
+
+        if (!values.Any(x => x == 0))
+        {
+            winner = "TIE";
+            return false;
+        }
+
+        foreach (string combo in _winStates)
+        {
+            var positionOne = int.Parse(combo[0].ToString());
+            var positionTwo = int.Parse(combo[1].ToString());
+            var positionThree = int.Parse(combo[2].ToString());
+
+            if (values[positionOne] == values[positionTwo] && values[positionOne] == values[positionThree])
+            {
+                winner = _grid[positionOne].ToString();
+                return true;
+            }
+        }
+
+        winner = "TIE";
+        return true;
     }
 
     /// <summary>

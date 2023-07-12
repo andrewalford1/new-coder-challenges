@@ -2,4 +2,12 @@
 using NaughtsAndCrosses;
 
 var gameGrid = new GameGrid();
-gameGrid.PrintToConsole();
+
+
+bool isGameOver = false;
+
+while(!isGameOver)
+{
+
+    gameGrid.PrintToConsole();
+}
